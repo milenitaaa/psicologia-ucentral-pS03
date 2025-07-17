@@ -1,42 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Malla psico ucen <3 uwu</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>💗 Malla psico UCEN <3 uwu ☁️</h1>
-  <table id="malla">
-    <thead>
-      <tr>
-        <th>💗 Aprobado</th>
-        <th>Ramo</th>
-        <th>Prerrequisitos</th>
-        <th>Estado</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr data-code="34000">
-        <td><input type="checkbox" onchange="actualizarEstados()"></td>
-        <td>Introducción a la Psicología</td>
-        <td></td>
-        <td class="estado">🟡 Disponible</td>
-      </tr>
-      <tr data-code="34011" data-prereqs="34000">
-        <td><input type="checkbox" onchange="actualizarEstados()"></td>
-        <td>Psicología Social</td>
-        <td>34000</td>
-        <td class="estado">🔒 Bloqueado</td>
-      </tr>
-      <tr data-code="34016" data-prereqs="34011">
-        <td><input type="checkbox" onchange="actualizarEstados()"></td>
-        <td>Psicología Social Contemporánea</td>
-        <td>34011</td>
-        <td class="estado">🔒 Bloqueado</td>
-      </tr>
-    </tbody>
-  </table>
-  <script src="script.js"></script>
-</body>
-</html>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-rosado bg-mariquitas bg-cover;
+}
