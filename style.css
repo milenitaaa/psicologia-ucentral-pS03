@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(to bottom, #ffd1dc, #ffe6f2);
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #d63384;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #f3c;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #f8c5e5;
+}
+
+.estado {
+  font-weight: bold;
+}
